@@ -12,7 +12,7 @@ mkdir script
 echo "ambari.repo ..."
 echo "[Ambari]
 name=ambari-2.2.1
-baseurl=http://archive.redoop.com/ambari/redhat/6/x86_64/ambari/2.2.1/
+baseurl=http://archive.redoop.com/crh4/redhat/6/x86_64/crh/ambari/redhat/6/x86_64/ambari/2.2.1/
 enabled=1
 gpgcheck=0 
 [CRH-4.9]
