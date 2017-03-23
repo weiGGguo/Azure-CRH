@@ -75,7 +75,7 @@
         "nicNameM": "myVMNicm",
         "nicNameC": "myVMNicc",
         "nicNameN": "myVMNicn",
-        "setupSHuri": "http://www.redhub.io/OpenCloud/Azure-CRH-ARM/raw/azure-crh-2.0/scripts",
+        "setupSHuri": "https://raw.githubusercontent.com/weiGGguo/Azure-CRH/master",
         "vmStorageAccountContainerName": "vhds",
         "OSDiskName": "osdiskforlinuxsimple",
         "dataDisk1VhdName": "datadisk1",
