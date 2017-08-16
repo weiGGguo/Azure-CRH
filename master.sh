@@ -12,12 +12,12 @@ mkdir script
 echo "ambari.repo ..."
 echo "[Ambari]
 name=ambari-2.2.1
-baseurl=http://archive.redoop.com/crh4/redhat/6/x86_64/crh/ambari/redhat/6/x86_64/ambari/2.2.1/
+baseurl=http://archive.redoop.com/crh/rpm/4.9.2.3/CRH/x86_64/redhat6
 enabled=1
 gpgcheck=0 
 [CRH-4.9]
 name=CRH-4.9
-baseurl=http://archive.redoop.com/crh4/redhat/6/x86_64/crh/4.9/
+baseurl=http://archive.redoop.com/crh/rpm/4.9.2.3/CRH/x86_64/redhat6
 path=/
 enabled=1" >> script/ambari.repo
 
@@ -98,7 +98,7 @@ echo "yum install expect ..."
 yum install -y expect >/dev/null 2>&1
 
 echo "wget jdk ..."
-wget http://archive.redoop.com/crh4/redhat/6/x86_64/crh/package/jdk-oracle/1.7.0_79/jdk-7u79-linux-x64.tar.gz >/dev/null 2>&1
+wget http://archive.redoop.com/crh/tools/jdk/oracle_jdk/jdk-7u79-linux-x64.tar.gz >/dev/null 2>&1
 
 
 service iptables stop
@@ -185,7 +185,7 @@ sh /opt/script/mountd.sh
 echo "crh-repo.json ..."
 echo "{
   \"Repositories\" : {
-    \"base_url\" : \"http://archive.redoop.com/crh4/redhat/6/x86_64/crh/4.9\",
+    \"base_url\" : \"http://archive.redoop.com/crh/rpm/4.9.2.3/CRH/x86_64/redhat6\",
     \"verify_base_url\" : false
   }
 }" >> crh-repo.json
