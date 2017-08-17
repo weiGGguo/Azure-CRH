@@ -26,7 +26,7 @@ export CLASSPATH=.:\$JAVA_HOME/lib:\$JRE_HOME/lib:\$CLASSPATH
 export PATH=\$JAVA_HOME/bin:\$JRE_HOME/bin:\$PATH" >>script/jdk.sh
 
 echo "wget jdk ..."
-wget http://archive.redoop.com/crh/tools/jdk/oracle_jdk/jdk-7u79-linux-x64.tar.gz >/dev/null 2>&1
+wget http://archive.redoop.com/tools/jdk/oracle_jdk/jdk7/jdk-7u79-linux-x64.tar.gz >/dev/null 2>&1
 
 echo "#!/bin/sh
 mount_d(){

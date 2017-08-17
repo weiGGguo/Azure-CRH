@@ -98,7 +98,7 @@ echo "yum install expect ..."
 yum install -y expect >/dev/null 2>&1
 
 echo "wget jdk ..."
-wget http://archive.redoop.com/crh/tools/jdk/oracle_jdk/jdk-7u79-linux-x64.tar.gz >/dev/null 2>&1
+wget http://archive.redoop.com/tools/jdk/oracle_jdk/jdk7/jdk-7u79-linux-x64.tar.gz >/dev/null 2>&1
 
 
 service iptables stop
